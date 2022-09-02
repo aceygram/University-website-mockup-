@@ -93,41 +93,6 @@ nav .fa {
     display: none;
 }
 
-@media(max-width: 700px) {
-    .text-box h1 {
-        font-size: 20px;
-    }
-
-    .nav-links ul li {
-        display: block;
-
-    }
-
-    .nav-links {
-        position: absolute;
-        background-color: #f44336;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-        transition: 1s;
-    }
-
-    nav .fa {
-        display: block;
-        color: #fff;
-        margin: 10px;
-        font-size: 22px;
-        cursor: pointer;
-    }
-
-    .nav-links ul {
-        padding: 30px;
-    }
-}
-
 /*------- Course-------*/
 
 .course {
@@ -175,13 +140,8 @@ h3 {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 700px) {
-    .row {
-        flex-direction: column;
-    }
-}
 
-/* ----------campus-------- */
+/* ----------Campus-------- */
 
 .campus {
     width: 80%;
@@ -236,7 +196,8 @@ h3 {
 }
 
 
-/*---------facilities---------*/
+/*---------Facilities---------*/
+
 .facilities {
     width: 80%;
     margin: auto;
@@ -267,7 +228,7 @@ h3 {
 }
 
 
-/*--------testimonials------*/
+/*--------Testimonials------*/
 
 .testimonials {
     width: 80%;
@@ -307,20 +268,47 @@ h3 {
     color: #f44336;
 }
 
-@media (max-width: 700px) {
-    
-    .testimonials-col {
-        position: relative;
-        margin-top: 25%;      
-    }
-    
-    .testimonials-col img {
-        position: absolute;
-        height: 70px;
-        top: -23%;
-        right: 30%;   
-    }
+/* ---------Call To Action--------- */
+
+.cta {
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 100px 0;
+    text-align: center;
 }
 
 
+.cta h1 {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+/*-------- Footer --------*/
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.icons .fa {
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.fa-heart-o {
+    color: #f44336;
+}
 
