@@ -1,13 +1,13 @@
 @media(max-width: 700px) {
 
 
-/*-------Header-------*/
+    /*-------Header-------*/
 
 
     nav img {
         margin-top: 10px;
     }
-    
+
     .text-box h1 {
         font-size: 20px;
     }
@@ -29,6 +29,14 @@
         transition: 1s;
     }
 
+    .menu-logo {
+        display: inline-block;
+    }
+
+    .logo-container {
+        display: flex;
+    }
+
     nav .fa {
         display: block;
         color: #fff;
@@ -37,35 +45,39 @@
         cursor: pointer;
     }
 
+    .fa-times {
+        z-index: 2;
+    }
+
     .nav-links ul {
         padding: 30px;
     }
 
-/*----------Course----------*/
+    /*----------Course----------*/
 
     .row {
         flex-direction: column;
     }
 
 
-/*--------Testimonials------*/
+    /*--------Testimonials------*/
 
 
     .testimonials-col {
         position: relative;
-        margin-top: 25%;      
+        margin-top: 25%;
     }
-    
+
     .testimonials-col img {
         position: absolute;
         height: 70px;
         top: -23%;
         right: 30%;
-        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);   
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
     }
 
 
-/* ---------Call To Action--------- */
+    /* ---------Call To Action--------- */
 
 
     .cta h1 {
