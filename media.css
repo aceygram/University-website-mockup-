@@ -84,4 +84,9 @@
     .footer p {
         padding: 0 25px;
     }
+
+    /*---------- blog --------*/
+    .sub-header h1 {
+        font-size: 25px;
+    }
 }
